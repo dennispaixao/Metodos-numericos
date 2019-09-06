@@ -1,5 +1,5 @@
 Converter da base 2 p/ base 10
-
+*-----------------------------*
 Basta multiplicar cada 'bit' pela potência de 2 conveniente e somar os resultados
 
 101001
@@ -40,7 +40,7 @@ c) 1001,011
 == 9,375
 
 Converter da base 10 para a base 2
-
+*---------------------------------*
 a) 18 
 
 18/2
@@ -84,10 +84,11 @@ d)(0,1)  == dizima periodica em binário
 
 
 Representação numérica de memória de máquina
+*--------------------------------------------*
 
 MEMORIA:
 _________________________________________________
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ==16bits
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | == 16bits
  
 1 bit = sinal da mantissa
 10 bits = valor da mantissa
@@ -95,7 +96,59 @@ _________________________________________________
 4 bits = valor do expoente 
 
 
+**Forma Normalizada:
+converte-se para forma normalizada para que os valores possam ser representados
+utilizando os 16 bits da celula da memoria 
+
+a)19
+converte-se 19 para base 2
+escreve-se na forma normalizada
+completa-se as lacunas da memoria
+
+
+19 em binário == 10011
+
+10011 = 0,10011*2^5 // elevamos a 5 para passar 5 casas para a direita e voltar ao valor inicial o valor 2 é utilizado pois binario base 2
+ 												
+_________________________________________________________________
+| 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | == 16bits
+
+//alinha-se o valor do expoênte para a direita
+//alinha-se o valor da mantissa para a esquerda
+//completa-se as lacunas com 0
  
+
+/**********************************/
+
+ZEROS DE FUNÇÕES
+
+f(x) = 5x - 10      ------- o zero é o  2
+f(x) = 2x + 8       ------- o zero é o -4
+
+primeiro grau
+
+5x-10=0 
+5x=10
+x=5/10
+x=2
+
+Bhaskara
+Dlt = b²-4.a.c
+
+x = -b + ou - Raiz(Dlt)/2*a 
+
+
+exercício 
+
+Fazer o estudo do sinal e encontrar um intervalo que contenha uma raiz para
+
+a) f(x)=x²-sen(x)
+
+
+
+
+
+
 		 
 
 
